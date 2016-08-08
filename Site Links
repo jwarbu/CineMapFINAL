@@ -1,0 +1,29 @@
+Showtimes:
+    http://www.fandango.com/rss/moviesnearme_10023.rss
+       # rss feed lists movies, but showtimes need to be scraped from main site
+
+    https://www.google.com/movies?near=02446&date=0&view=list&time=1
+        # YES!
+
+Ratings etc:
+    http://www.omdbapi.com/
+        # all the ratings and RT consensus review!
+
+     https://www.themoviedb.org/documentation/api/wrappers-libraries
+        # not really sure what to do with this one yet... future functionality?
+
+
+Help docs:
+    http://stackoverflow.com/questions/439857/is-there-a-movie-showtime-api
+        # someone who had same idea as me
+
+    http://web.stanford.edu/~zlotnick/TextAsData/Web_Scraping_with_Beautiful_Soup.html
+        # Stanford beautifulsoup scraping tutorial
+
+
+    print('\n')
+    print(movie_name.text)
+    print(movie_info.text)
+    print(movie_time.text)
+    print(theater_name.text)
+    print(theater_addressphone.text)
